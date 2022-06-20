@@ -1,6 +1,7 @@
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:rapi_deli_market/utils/colors.dart';
 
 class MainFoodPage extends StatefulWidget {
   const MainFoodPage({Key key}) : super(key: key);
@@ -32,7 +33,7 @@ class _MainFoodPageState extends State<MainFoodPage> {
                      child: Icon(Icons.search, color: Colors.white),
                      decoration: BoxDecoration(
                        borderRadius: BorderRadius.circular(15),
-                       color: Colors.blue,
+                       color: AppColors.mainColor,
                      ),
                    ),
                  )
