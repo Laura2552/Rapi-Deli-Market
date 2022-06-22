@@ -2,6 +2,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:rapi_deli_market/utils/colors.dart';
+import 'package:rapi_deli_market/widgets/big_text.dart';
+import 'package:rapi_deli_market/widgets/small_text.dart';
 
 class MainFoodPage extends StatefulWidget {
   const MainFoodPage({Key key}) : super(key: key);
@@ -24,7 +26,15 @@ class _MainFoodPageState extends State<MainFoodPage> {
                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                children: [
                  Column(
-                   children: [Text("Country"), Text("City")],
+                   children: [
+                     BigText(text: "Republica Dominicana", color: AppColors.mainColor),
+                     Row(
+                       children: [
+                         SmallText(text: "Santo Domingo", color: Colors.black54,),
+                         Icon(Icons.arrow_drop_down_circle)
+                       ],
+                     )
+                   ],
                  ),
                  Center(
                    child: Container(
