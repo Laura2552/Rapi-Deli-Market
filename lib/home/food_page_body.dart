@@ -5,7 +5,7 @@ import 'package:rapi_deli_market/widgets/big_text.dart';
 import 'package:rapi_deli_market/widgets/icon_and_text_widget.dart';
 import 'package:rapi_deli_market/widgets/small_text.dart';
 
-//karla
+
 class FoodPageBody extends StatefulWidget {
   @override
   _FoodPageBodyState createState() => _FoodPageBodyState();
