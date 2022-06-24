@@ -5,6 +5,8 @@ import 'package:rapi_deli_market/utils/colors.dart';
 import 'package:rapi_deli_market/widgets/big_text.dart';
 import 'package:rapi_deli_market/widgets/small_text.dart';
 
+import 'food_page_body.dart';
+
 class MainFoodPage extends StatefulWidget {
   const MainFoodPage({Key key}) : super(key: key);
 
@@ -51,8 +53,9 @@ class _MainFoodPageState extends State<MainFoodPage> {
              ),
            ),
          ),
+         FoodPageBody(),
        ],
-      )
+      ),
     );
   }
 }
